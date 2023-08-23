@@ -27,6 +27,8 @@ class Hw {
             int converter = 236;
             double size_oz = sc.nextDouble() / converter;
 
+            System.out.println("Read milk calories from " + infile);
+            System.out.println("Write output to " + outfile);
 
             write.print("Milk               Calories/cup(8oz)     Calories/bottle(2000 ml)\r\n");
             write.print("=================================================================\r\n");
